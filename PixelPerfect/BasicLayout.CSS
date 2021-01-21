@@ -1,0 +1,135 @@
+body{
+  overflow:hidden;
+  width: 100vw;
+  height: 100vh;  
+  background-color: rgb(95, 87, 87);
+}
+
+.toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 16%;
+    background-color: rgb(119, 208, 235);
+  }
+
+.navigation-panel{
+   position: fixed;
+   top: 16%;
+   height: 100%;
+   width: 20%;
+   background-color: rgb(44, 42, 42);
+   
+  }
+
+.content-frame div{
+  position: relative;
+   border-radius: 2px;
+   height: 5vw;
+   margin:0.5% 5% 0.5% 30%;    
+   background-color: white;
+}
+
+.content-frame{
+   position: absolute;
+   left: 5%;
+   right: 5%;
+   top: 16%;
+   width: 90%;
+   height: 100%;
+}
+
+.toolbar img{
+  position:absolute;
+  left: 2vw;
+  top: 25%;
+  bottom: 10%;
+  width: 5%;
+  height: 7vh;
+}
+
+.toolbar div{
+  position: absolute;
+  color: white;
+  left: 7.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  bottom:22%;
+  font-size: 6vh;
+}
+
+.navigation-panel div{
+  position:relative;
+   border-radius: 2px;  
+   background-color: rgb(95, 87, 87);
+   margin:2% 1% 1% 1%;
+   font-size: 1.5vw;
+   color:white;
+   padding: 1vw 1vw 1vw 1vw;
+    font-family:Verdana, sans-serif;
+}
+
+.navigation-panel div:first-child{  
+   background-color: rgb(235, 156, 38);
+   margin:4% 1% 1% 1%;
+}
+
+div.vertical-line{
+  position: relative;
+  border-left: 1px solid rgb(95, 87, 87);
+  height: 80%;
+  width: 0%;
+  top:10%;
+  left: -6%;
+}
+
+.btn{
+  position: absolute;
+  border-radius: 50%;
+  height: 6%;
+  width: 3%;
+  bottom: 1%;
+  right: 1%;
+  background-color: rgb(235, 156, 38);  
+}
+
+.edit{
+  position: absolute;
+  top:25%;
+  left:25%;
+  width: 50%;
+  height: 50%;
+}
+
+i.warning{
+  position: absolute;
+  color: red;
+  right:1vw;
+  bottom: 0.5vw;
+  font-size: 1.5vw;
+}
+
+.subject{
+  position: absolute;
+  text-align: left;
+  bottom: -2%;
+  font-size: 2vw;
+  font-family: Verdana, sans-serif;
+}
+
+.sender{
+  position: absolute;
+  text-align: left;
+  bottom: -15%;
+  font-size: 1vw;
+  font-family: Verdana, sans-serif;
+}
+
+.preview{
+  position: absolute;
+  text-align: left;
+  bottom: 45%;
+  left: 25%;
+  font-size: 1vw;
+  font-family: Verdana, sans-serif; 
+}
